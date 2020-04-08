@@ -50,5 +50,5 @@ an = an * MS
 
 print(an)
 
-
+k=input("press enter to exit") 
 
