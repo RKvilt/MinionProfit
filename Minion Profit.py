@@ -1,7 +1,6 @@
 
-A = 86400
 
-DAV = 138350
+DSV = 138350
 
 print("ActionTime:")
 AT = int(input())
@@ -39,9 +38,9 @@ else:
 
 
 if DS == "YES":
-    an = (A / AT + IPA * UP + DAV / AT)
+    an = (86400 / AT + IPA * UP + DSV / AT)
 else:
-    an = (A / AT + IPA * UP / AT)
+    an = (86400 / AT + IPA * UP / AT)
 print("How many minion slots:")
 MS = int(input())
 
